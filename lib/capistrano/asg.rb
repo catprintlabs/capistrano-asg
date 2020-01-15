@@ -14,6 +14,7 @@ require 'capistrano/asg/aws/ec2'
 require 'capistrano/asg/aws_resource'
 require 'capistrano/asg/ami'
 require 'capistrano/asg/launch_configuration'
+require 'capistrano/asg/launch_template_version'
 
 module Capistrano
   module Asg

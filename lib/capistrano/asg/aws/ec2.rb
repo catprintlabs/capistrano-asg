@@ -18,7 +18,7 @@ module Capistrano
           @_ec2_resource = nil
         end
 
-        private
+        # private
 
         def ec2_client
           ::Aws::EC2::Client.new(region: region, credentials: credentials)
