@@ -26,7 +26,7 @@ module Capistrano
       end
 
       def environment
-        fetch(:rails_env, 'production')
+        fetch(:rails_env) || fetch(:stage, 'production')
       end
 
       def timestamp(str)
